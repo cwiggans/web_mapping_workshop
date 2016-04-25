@@ -42,7 +42,6 @@ var clickHandler = function(e){
   $('info').fadeIn(400, function(){
     
     var info = '';
-    
     info += '<div>',
     info += 	'<h2>' + feature.properties.LABEL + '</h2>';
     info +=		'<p>' + feature.properties.LOCATION + '</p>';
