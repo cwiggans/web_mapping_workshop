@@ -39,7 +39,7 @@ var clickHandler = function(e){
   
   var feature = e.target.feature;
   
-  $('info').fadeIn(400, function(){
+  $('#info').fadeIn(400, function(){
     
     var info = '';
     
